@@ -27,6 +27,7 @@
     "@exobase/vercel": "^0.0.9",
     "@octokit/webhooks-types": "^4.17.1",
     "exo-use-github-webhook": "^0.0.2",
+    "exo-use-stripe-webhook": "^0.0.2",
     "radash": "^1.3.1",
     "uuid": "^8.3.2",
     "yup": "^0.32.11"

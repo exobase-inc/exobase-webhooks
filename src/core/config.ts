@@ -13,7 +13,9 @@ const config = {
     version: get('VERSION'),
     exobaseApiUrl: get('EXOBASE_API_URL'),
     exobaseToken: get('EXOBASE_TOKEN'),
-    githubWebhookSecret: get('GITHUB_WEBHOOK_SECRET')
+    githubWebhookSecret: get('GITHUB_WEBHOOK_SECRET'),
+    stripeSecretKey: get('STRIPE_SECRET_KEY'),
+    stripeWebhookSecret: get('STRIPE_WEBHOOK_SECRET')
 }
 
 export type Config = typeof config
